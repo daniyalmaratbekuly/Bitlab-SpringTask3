@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="SpringTask.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+	<div>
+
+		<!-- сумма -->
+		<div>
+			Введите сумму:<br>
+			<input type="number" id="sumInput" value="0">
+		</div>
+
+		<!-- выбор валюты -->
+		<div>
+
+			<br>
+			<select id="currencySelect">
+				<option>KZT</option>
+				<option>USD</option>
+				<option>EUR</option>
+			</select>
+		</div>
+
+		<!-- KZT -->
+		<div id="kztBlock">
+			<b>KZT (tenge:)</b><br>
+			<input type="text" id="kztInput" disabled><br>
+		</div>
+
+		<!-- USD -->
+		<div>
+			<b>USD (dollar:)</b><br>
+			<input type="text" id="usdInput" disabled>
+		</div>
+
+		<!-- EUR -->
+		<div>
+			<b>EUR (euro:)</b><br>
+			<input type="text" id="eurInput" disabled>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
